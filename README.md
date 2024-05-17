@@ -8,7 +8,7 @@ O desafio consiste em expandir o código fornecido previamente durante o curso, 
 <img src="https://cdn.dribbble.com/users/1171520/screenshots/6540871/pokedex2.png" height=350><br>
 
 #### Resultado
-<img src="https://github.com/Felipecardosovargas/Pokedex/blob/main/img1.png" height=350><img src="https://github.com/Felipecardosovargas/Pokedex/blob/main/img2.png" height=350><img src="https://github.com/Felipecardosovargas/Pokedex/blob/main/img3.png" height=350><br>
+<img src="https://github.com/Felipecardosovargas/Pokedex/blob/main/img1.png" height=200><img src="https://github.com/Felipecardosovargas/Pokedex/blob/main/img2.png" height=200><img src="https://github.com/Felipecardosovargas/Pokedex/blob/main/img3.png" height=200><br>
 
 O propósito final é criar um aplicativo semelhante à Pokedex (cujo design foi inspirado [neste dribbble](https://dribbble.com/shots/6540871-Pokedex-App)), um dispositivo presente no universo Pokémon que exibe informações sobre os "pokémons". Para isso, além do HTML, CSS e JS inicialmente fornecidos pelo expert, foi utilizada a [PokeAPI](https://pokeapi.co/), que disponibiliza diversas informações sobre pokémons por meio da URL: `https://pokeapi.co/api/v2/pokemon/<numero do pokemon>`.
 
