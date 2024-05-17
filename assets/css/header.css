@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #dd1600;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 50px;
+    margin-right: 0;
+    margin-left: auto;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 36px;
+    line-height: 80px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Estilos do botão */
+#darkModeButton {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;/* Adiciona espaço entre o título e o botão */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-left: auto; /* Posiciona o botão à direita */
+    margin-right: 20px;
+}
+
+/* Estilização do botão quando o mouse passa por cima */
+#darkModeButton:hover {
+    background-color: #fff;
+    color: #dd1600;
+}
+
+/* Estilos do botão no modo escuro */
+.dark-mode #darkModeButton {
+    border-color: #333;
+    color: #333;
+}
+
+/* Estilização do botão no modo escuro quando o mouse passa por cima */
+.dark-mode #darkModeButton:hover {
+    background-color: #333;
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+@import url(./modelHeader.css);
+@import url(./modelIdentificacao.css);
+@import url(./model_stats.css);
+@import url(./modelDescription.css);
+@import url(./modelEvolution.css);
+@import url(./modelInputRange.css);
+
+.modal__container {
+    border: none;
+    height: auto;
+    margin: 0;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 100vh;
+    position: fixed;
+    width: auto;
+    grid-template-rows: 1fr 2fr 2fr 6fr;
+}
+
+.modal__container[open] {
+    display: grid;
+}
+
+.modal__container::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
