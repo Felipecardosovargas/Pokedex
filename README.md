@@ -16,7 +16,8 @@ No entanto, uma única chamada à API não é suficiente para obter todas as inf
 - `https://pokeapi.co/api/v2/pokemon-species/<numero do pokemon>` - este endpoint permite consultar a "Evolution Chain" de um determinado pokémon, fornecendo a URL de outro endpoint que fornece as informações das evoluções do pokémon.
 - `https://pokeapi.co/api/v2/evolution-chain/<id da evolution chain>` - este endpoint, que não depende do id/número/nome do pokémon, apresenta os nomes das evoluções do pokémon, se existirem. Com essas informações, foi necessário fazer novas chamadas ao primeiro endpoint para obter as imagens das evoluções.
 
-Como consequência, além de ter sido desafiador popular a aba de evoluções (já que o resultado estava chegando antes da resolução da promise, por algum motivo não identificado), a performance do aplicativo ficou comprometida, com as imagens de alguns pokémons na aba de evolução frequentemente não carregando.
+Como consequência, além de ter sido desafiador popular a aba de evoluções (já que o resultado estava chegando antes da resolução da promise, por algum motivo não identificado), a performance do aplicativo ficou comprometida. Isso se refletiu na experiência do usuário, com as imagens de alguns pokémons na aba de evolução frequentemente não carregando de forma adequada. Esse problema pode impactar negativamente a usabilidade do aplicativo e a satisfação do usuário.
+É evidente que o aprendizado obtido durante o desenvolvimento deste projeto foi esclarecedor. Antes, minha experiência era predominantemente teórica, mas agora pude vivenciar o aspecto prático do desenvolvimento web. A familiaridade adquirida com o desenvolvimento web foi enriquecedora, e foi um prazer inesquecível fazer parte dessa jornada com a DIO.
 
 ## 🛠 Tecnologias Utilizadas
 ![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
